@@ -365,7 +365,7 @@ if(BUILD_TESTING)
 endif()
 
 add_subdirectory(third_party/fastfeat)
-
+add_subdirectory(test_filter)
 if(NOT COMPILE_C_ONLY AND HAVE_X86_PLATFORM)
     add_subdirectory(third_party/cpuinfo)
 endif()
